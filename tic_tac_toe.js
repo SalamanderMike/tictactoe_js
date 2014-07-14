@@ -26,7 +26,8 @@ var playBox = function(turn, x, o) {
 }
 // Winner Function
 var winner = function(score) {
-	var wins = ["123","456","789","147","258","369","159","357"];
+	var wins = ["123","456","789","147",
+							"258","369","159","357"];
 
 	// Check every number within every number for the win pattern
 	for (var i = 0; i < wins.length; i++) {
@@ -88,9 +89,6 @@ window.onload = function() {
 			};
 		} 		
 	}
-
-
-
 }
 
 // What I learned:

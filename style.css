@@ -49,8 +49,12 @@ body {
 	line-height: 75px;
 	padding: 20px;
 	font-size: 100px;
-	color: black;
+	color: rgba(0,0,0,0);
 	float: left;
 	border: 1px solid;
 	border-color: #de7cc1;
+	-webkit-transition:  background .25s ease-in-out;
 }
+.box:hover {
+	background: #474747;
+
