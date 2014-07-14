@@ -1,0 +1,56 @@
+/* Cursor On Entire Screen */
+html {
+	cursor: pointer;
+}
+/* Gradient Backdrop */
+body {
+	background: -webkit-linear-gradient(right, 	rgba(0,0,0,.5), 
+												rgba(0,0,0,0));
+  	background:    -moz-linear-gradient(right, 	rgba(0,0,0,.5), 
+  												rgba(0,0,0,0));
+  	background:         linear-gradient(right, 	rgba(0,0,0,.5), 
+  												rgba(0,0,0,0));
+}
+#game_board {
+	position: fixed center;
+	background: -webkit-linear-gradient(left, 	rgba(0,0,0,.5), 
+												rgba(255,255,255,.4));
+	height: 425px;
+	width: 364px;
+	border: 2px solid;
+    border-color: black;
+    margin: 50px auto;
+}
+
+/* To Align Play Button */
+.wrapper {
+	text-align: center;
+}
+/* What's Written on the Play Button */
+#display {
+	background: -webkit-linear-gradient(left, 	rgba(255,255,255,1), 
+												rgba(0,0,0,.3));
+	text-align: center;
+	font-size: 19px;
+	color: cyan;
+	padding: 10px;
+	border: 3px grey solid;
+}
+#reset {
+	cursor: pointer;
+	font-size: 20px;
+}
+.box {
+	background: black;
+	width: 75px;
+	height: 75px;
+	margin: 2px;
+	text-align: center;
+	line-height: 75px;
+	padding: 20px;
+	font-size: 100px;
+	color: black;
+	float: left;
+	border: 1px solid;
+	border-color: #de7cc1;
+}
